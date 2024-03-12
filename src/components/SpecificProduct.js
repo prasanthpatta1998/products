@@ -24,7 +24,6 @@ const SpecificProduct = () => {
             <img
               src={productData.image}
               alt={productData.title}
-              height={300}
               className="image"
             />
           </div>

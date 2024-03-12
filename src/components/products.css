@@ -25,6 +25,7 @@ div h1 {
 
 .product-item {
   display: flex;
+  justify-content: space-between;
   border: 1px solid;
   margin: 0.5rem;
   border-radius: 8px;
