@@ -1,0 +1,64 @@
+div {
+  font-family: cursive;
+}
+
+div h1 {
+  text-align: center;
+  color: darkred;
+  margin: 1.5rem 0rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 90%;
+  height: 65vh;
+  border: 1px solid;
+  border-radius: 6px;
+  margin: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 11px;
+}
+
+.product-item {
+  display: flex;
+  border: 1px solid;
+  margin: 0.5rem;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.product-image {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: "50vh";
+}
+
+.rating {
+  width: 55px;
+  background: #51aeff;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 4px;
+  color: white;
+}
+
+.link-element {
+  text-decoration: none;
+  color: inherit;
+  width: 25%;
+}
+.products-image {
+  display: flex;
+  justify-content: center;
+  height: 35vh;
+}
